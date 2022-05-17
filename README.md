@@ -48,6 +48,30 @@ eg, class Employee {
 
 }
 
+ES6 Modules
+--------------------
+Modules are used to organize the code for re-use. It is just a javascript file.
+
+Exporting from Module
+----------------------
+a- Export keyword is used to export the components from the module.
+
+Example: suppose in file ./name.js following code is present
+let name = "ark:
+let upperCaseName =() => name.toUpperCase();
+
+export { name, upperCaseName} ;//This will export these values to be used in another JS file
+
+
+Importing the Module:
+---------------------
+b- import keyword is used to import a component from a module.
+
+
+Example: code present in ./main.js
+
+import {name, upperCaseName} from ./name.js;
+
 Some GIT basics
 ----------------
 To clone the repository -> git clone repoURL

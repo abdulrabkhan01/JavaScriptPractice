@@ -23,6 +23,31 @@ b-Arrow Functions
 -----------------
 const func = () => {funtion body}
 
+
+Classes & Objects
+-------------------
+sytax:
+class ClassName {
+  constructor() { ... }
+
+  funcion() {} //Class methods just like java
+}
+
+eg, class Employee {
+		 constructor(name, salary) {
+			 	this.name = name;
+				this.salary=salary;
+		 }
+
+		 function getSalary() {
+			 return this.salary;
+		 }
+		 function getName() {
+			 return this.name;
+		 }
+
+}
+
 Some GIT basics
 ----------------
 To clone the repository -> git clone repoURL

@@ -13,8 +13,15 @@ Note: It is better to use let/const instead of var.
 
 Arrow Functions
 ---------------
+Introduced in ES6 to allow to write shorter syntax
 
+a- Traditional js function:
+-----------------------------
+var func = functionName(Arguments) {function body}
 
+b-Arrow Functions
+-----------------
+const func = () => {funtion body}
 
 Some GIT basics
 ----------------

@@ -13,3 +13,13 @@ Note: It is better to use let/const instead of var.
 
 Arrow Functions
 ---------------
+
+
+
+Some GIT basics
+----------------
+To clone the repository -> git clone repoURL
+To create the feature branch-> a- clone the project
+                               b- git checkout -b feature_branch_name
+							   c- commit changes -> git commit -m message
+							   d- git push origin feature_branch_name
